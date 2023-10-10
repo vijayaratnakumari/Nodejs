@@ -3,7 +3,7 @@ FROM node:latest
 # Create a working directory
 WORKDIR /root/nodejs
 
-# Copy your start.sh and environment.txt into the container
+# Copy your start.sh, environment.txt, package.json, and server.js into the container
 COPY start.sh .
 COPY environment.txt .env
 COPY package.json .
