@@ -4,11 +4,10 @@
     "description": "A simple Node.js application",
     "main": "start.sh",
     "scripts": {
-      "test": "npm install",
-      "install-client": "npm install --prefix .",
-      "dev": "node server.js"
+        "test": "npm install",
+        "install-client": "npm install --prefix .",
+        "dev": "node server.js"
     },
     "author": "vijaya",
     "license": "ISC"
-  }
-  
+}
